@@ -1,0 +1,6 @@
+Code Flow and Working:
+
+==> There are two main functions: 1.Producer and 2.Consumer
+==> Producer is impelemented using go Routine and consumer is just normal function call which is reading the data from channel "pizzaJob.data" iff there is some entry for pizzaJob.
+==> Producer Working: There is only one go Routine which is running indefinitely untill it received any quit error from consumer
+==> Error only produce when all the pizza making is done
